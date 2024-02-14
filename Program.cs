@@ -80,5 +80,19 @@ switch(figure)
             }
         }
     break;
+    case "5":
+        {
+            for(int i = 0; i < 8; i++)
+            {
+                for(int j = 0; j < 8; j++)
+                {
+                    if(i == x || j == y)
+                    {
+                        chess[i, j] = '1';
+                    }
+                }
+            }
+        }
+    break;
 }
 chess[x, y] = 'F';
